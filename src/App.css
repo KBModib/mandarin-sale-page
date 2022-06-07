@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;  
+    max-width: fit-content;
+}
+
+body {
+    background-color: #707172;
+    background-image: url(/assests/images/bg.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 650px 1610px ;
+    border-radius: 50%;
+}
+.nav {
+    border: 1px solid #ffffff;
+    height: 60px;
+    margin: 20px;
+}
+.nav-links {
+    padding-left: 800px;
+    margin-top: 20px;
+    -webkit-text-fill-color: #ffffff;
+}
+.nav-links a {
+    padding: 35px;
+}
+.cart-icon {
+    
+}

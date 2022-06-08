@@ -1,31 +1,21 @@
 *{
     margin: 0;
     padding: 0; 
-  
+    font-family: 'Quicksand', sans-serif;
+    -webkit-text-fill-color: white;
+    
     
 }
 body {
-    font-family: 'Quicksand', sans-serif;
-    box-sizing: border-box;
-    background-color: #a5a5a5;
-    -webkit-text-fill-color: white;
-    overflow: hidden;
-    /* background-image: url(/assests/images/bg.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    clip-path: ellipse(130px 140px at 90% 50%);*/
+    background-color: #a5a5a5; 
+    border: 5px solid ;
+   
 }
-.main-content {
-    border: 1px solid green;
 
-}
-.main-text {
-    background: red;
-    margin-top: 450px;
-}
+/*NavigationBar*/
 .navbar {
     border: 1px solid yellow;
-    
+    overflow: hidden;
     
 }
 .nav-item {
@@ -55,3 +45,6 @@ body {
     border-radius: 75px;
     padding : 13px;
 }
+
+/*VertCarousel*/
+

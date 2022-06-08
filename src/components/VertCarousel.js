@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function LeftAside() {
+export default function VertCarousel() {
   return (
     <div>
       <i>Dot scroll</i>

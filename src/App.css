@@ -1,31 +1,57 @@
 *{
     margin: 0;
     padding: 0; 
-    font-family: sans-serif;  
-    max-width: fit-content;
+  
+    
 }
-
 body {
-    background-color: #707172;
-    background-image: url(/assests/images/bg.jpg);
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    background-color: #a5a5a5;
+    -webkit-text-fill-color: white;
+    overflow: hidden;
+    /* background-image: url(/assests/images/bg.jpg);
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 650px 1610px ;
-    border-radius: 50%;
+    clip-path: ellipse(130px 140px at 90% 50%);*/
+}
+.main-content {
+    border: 1px solid green;
+
+}
+.main-text {
+    background: red;
+    margin-top: 450px;
+}
+.navbar {
+    border: 1px solid yellow;
+    
+    
+}
+.nav-item {
+    padding: 15px 38px;
+    font-weight: bold;
+}
+.navbar-brand {
+    background-image: url(/images/Mandarin-logo.png);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    margin-left: -150px;
+    justify-items: left;
+    width: 160px;
+    height: 48px;
 }
 .nav {
-    border: 1px solid #ffffff;
-    height: 60px;
-    margin: 20px;
+    margin-right: -180px;
 }
-.nav-links {
-    padding-left: 800px;
-    margin-top: 20px;
-    -webkit-text-fill-color: #ffffff;
-}
-.nav-links a {
-    padding: 35px;
+.cart-link {
+   padding-left: 80px;
 }
 .cart-icon {
-    
+    background-image: url(/images/shopping-bag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid white;
+    border-radius: 75px;
+    padding : 13px;
 }

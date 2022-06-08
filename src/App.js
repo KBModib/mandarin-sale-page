@@ -1,19 +1,40 @@
 import React from 'react';
 import NavigationBar from './components/NavigationBar';
-import LeftAside from './components/LeftAside';
+import VertCarousel from './components/VertCarousel';
 import MainContent from './components/MainContent';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+
+
 
 
 function App() {
   return (
     <>
     <NavigationBar/>
-    <LeftAside/>
+    <VertCarousel/>
     <MainContent/>
   </> 
   );
 }
-
-
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;

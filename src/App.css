@@ -2,21 +2,17 @@
     margin: 0;
     padding: 0; 
     font-family: 'Quicksand', sans-serif;
-    -webkit-text-fill-color: white;
-    
-    
+    -webkit-text-fill-color: white; 
 }
 body {
     background-color: #a5a5a5; 
-    border: 5px solid ;
-   overflow: hidden;
+    overflow: hidden;
 }
 
 /*NavigationBar*/
 .navbar {
-    border: 1px solid yellow;
-    overflow: hidden;
-    
+    position: sticky;
+    overflow: hidden;  
 }
 .nav-item {
     padding: 15px 40px;
@@ -51,17 +47,64 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 800px;
-    height: 940px;
+    height: 945px;
     margin-left: 900px;
-    margin-top: -537px;
+    margin-top: -1340px;
     clip-path: ellipse(830px 800px at 120% 60%);
+    position: static;
 }
 
 /*VertCarousel*/
 .carousel {
-    height: 450px;
-    border: 1px solid green;
+    width: 1250px;
+    height: 1250px;
+    transform: rotate(90deg);
+    margin-left: 30px;
+    overflow: visible;
+   z-index: 2;
 }
 .add-btn {
     -webkit-text-fill-color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 150px;
+    padding: 2px;
+}
+.carousel-img {
+    border: 1px solid yellow;
+    height: 500px;
+    transform: rotate(-90deg);
+    margin-left: -250px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    overflow: visible;
+}
+.carousel-text {
+    width: 450px;
+    height: 500px;
+    transform: rotate(-90deg);
+    margin-left: 180px;
+    margin-top: -980px;
+    position: static;
+
+}
+.carousel-text h1 {
+    font-size: 50pt;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.carousel-text h2 {
+    font-size: 30pt;
+    font-weight: 500;
+    padding: 30px 0;
+}
+.item-number {
+    margin-top: 600px;
+    margin-left: 750px;
+    width: 100px;
+    transform: rotate(-90deg);
+    padding: 50px;
+    position: static;
+    font-weight: bolder;
 }

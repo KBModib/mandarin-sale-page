@@ -9,7 +9,7 @@
 body {
     background-color: #a5a5a5; 
     border: 5px solid ;
-   
+   overflow: hidden;
 }
 
 /*NavigationBar*/
@@ -19,7 +19,7 @@ body {
     
 }
 .nav-item {
-    padding: 15px 38px;
+    padding: 15px 40px;
     font-weight: bold;
 }
 .navbar-brand {
@@ -45,6 +45,23 @@ body {
     border-radius: 75px;
     padding : 13px;
 }
+.background-img {
+    background-image: url(/images/bg.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 940px;
+    margin-left: 900px;
+    margin-top: -537px;
+    clip-path: ellipse(830px 800px at 120% 60%);
+}
 
 /*VertCarousel*/
-
+.carousel {
+    height: 450px;
+    border: 1px solid green;
+}
+.add-btn {
+    -webkit-text-fill-color: white;
+}

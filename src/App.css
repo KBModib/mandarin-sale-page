@@ -18,14 +18,19 @@ body {
     padding: 15px 40px;
     font-weight: bold;
 }
+.nav-hov:hover {
+    background-color: orangered;
+    border-radius: 90%;
+}
 .navbar-brand {
-    background-image: url(/images/Mandarin-logo.png);
+    background-image: url(/public/images/Mandarin-logo.png);
     background-size: 160px;
     background-repeat: no-repeat;
     margin-left: -150px;
     justify-items: left;
     width: 160px;
     height: 48px;
+    
 }
 .nav {
     margin-right: -180px;
@@ -34,34 +39,40 @@ body {
    padding-left: 80px;
 }
 .cart-icon {
-    background-image: url(/images/shopping-bag.png);
+    background-image: url(/public/images/shopping-bag.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid white;
     border-radius: 75px;
     padding : 13px;
+    cursor: pointer;
+}
+.cart-icon:hover{
+    background-color: #a5a5a5;
+    width: 55px;
 }
 .background-img {
-    background-image: url(/images/bg.jpg);
+    background-image: url(/public/images/bg.jpg);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
     width: 800px;
     height: 945px;
     margin-left: 900px;
-    margin-top: -1340px;
+    margin-top: -1100px;
     clip-path: ellipse(830px 800px at 120% 60%);
     position: static;
 }
 
 /*VertCarousel*/
 .carousel {
-    width: 1250px;
-    height: 1250px;
+    width: 850px;
+    height: 1150px;
     transform: rotate(90deg);
-    margin-left: 30px;
+    margin-left: 190px;
+    margin-top: -140px;
     overflow: visible;
-   z-index: 2;
+    z-index: 2;
 }
 .add-btn {
     -webkit-text-fill-color: white;
@@ -69,23 +80,31 @@ body {
     border: 2px solid white;
     border-radius: 50px;
     width: 150px;
-    padding: 2px;
+    padding: 3px;
+    cursor: pointer;
+}
+.add-btn:hover {
+    background-color: orangered;
+    border-color: orangered;
+    font-weight: 900;
+    font-size: larger;
+    width: 180px;
+    height: 40px;
 }
 .carousel-img {
-    border: 1px solid yellow;
-    height: 500px;
+    height: 650px;
     transform: rotate(-90deg);
-    margin-left: -250px;
-    margin-top: 300px;
+    margin-left: -50px;
+    margin-top: 320px;
     margin-bottom: 200px;
     overflow: visible;
 }
 .carousel-text {
     width: 450px;
-    height: 500px;
+    height: 540px;
     transform: rotate(-90deg);
-    margin-left: 180px;
-    margin-top: -980px;
+    margin-left: 200px;
+    margin-top: -1200px;
     position: static;
 
 }
@@ -100,11 +119,45 @@ body {
     padding: 30px 0;
 }
 .item-number {
-    margin-top: 600px;
+    margin-top: 500px;
     margin-left: 750px;
     width: 100px;
     transform: rotate(-90deg);
     padding: 50px;
     position: static;
     font-weight: bolder;
+}
+
+/*images*/
+.img-1 {
+    background-image: url(/public/images/mandarin.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    margin-left: 25px;
+
+}
+.img-2 {
+    background-image: url(/public/images/clementine.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    margin-left: 20px;
+    
+}
+.img-3 {
+    background-image: url(/public/images/grapefruit.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    margin-left: 20px;
+}
+.img-4 {
+    background-image: url(/public/images/lime.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    margin-left: 20px;
+}
+.img-5 {
+    background-image: url(/public/images/pomelo.png);
+    background-repeat: no-repeat;
+    background-size: 63%;
+    margin-left: 20px;
 }

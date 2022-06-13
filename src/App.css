@@ -40,6 +40,7 @@ body {
 }
 .cart-icon {
     background-image: url(/public/images/shopping-bag.png);
+    background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid white;
@@ -57,11 +58,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 800px;
-    height: 945px;
+    height: 1000px;
     margin-left: 900px;
-    margin-top: -1100px;
+    margin-top: -1200px;
     clip-path: ellipse(830px 800px at 120% 60%);
-    position: static;
+    position: fixed;
 }
 
 /*VertCarousel*/
